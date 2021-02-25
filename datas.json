@@ -1,0 +1,136 @@
+[{
+  "_id": {
+    "$oid": "60255d6b42bcfd13d83c0780"
+  },
+  "posting": "neutral"
+},{
+  "_id": {
+    "$oid": "60255d9042bcfd13d83c0781"
+  },
+  "posting": "happy"
+},{
+  "_id": {
+    "$oid": "60255dca42bcfd13d83c0782"
+  },
+  "posting": ""
+},{
+  "_id": {
+    "$oid": "60255de842bcfd13d83c0783"
+  },
+  "posting": ""
+},{
+  "_id": {
+    "$oid": "60255e1b42bcfd13d83c0784"
+  },
+  "posting": "happy"
+},{
+  "_id": {
+    "$oid": "60255e5242bcfd13d83c0785"
+  },
+  "posting": "neutral"
+},{
+  "_id": {
+    "$oid": "60255ebf42bcfd13d83c0786"
+  },
+  "posting": "surprise"
+},{
+  "_id": {
+    "$oid": "60255f0842bcfd13d83c0787"
+  },
+  "posting": "happy"
+},{
+  "_id": {
+    "$oid": "60255f3142bcfd13d83c0788"
+  },
+  "posting": "happy"
+},{
+  "_id": {
+    "$oid": "60255f5f42bcfd13d83c0789"
+  },
+  "posting": ""
+},{
+  "_id": {
+    "$oid": "60255f7f42bcfd13d83c078a"
+  },
+  "posting": ""
+},{
+  "_id": {
+    "$oid": "60255faa42bcfd13d83c078b"
+  },
+  "posting": "sad"
+},{
+  "_id": {
+    "$oid": "60255fce42bcfd13d83c078c"
+  },
+  "posting": "happy"
+},{
+  "_id": {
+    "$oid": "60255ff142bcfd13d83c078d"
+  },
+  "posting": "neutral"
+},{
+  "_id": {
+    "$oid": "6025601342bcfd13d83c078e"
+  },
+  "posting": "happy"
+},{
+  "_id": {
+    "$oid": "6025603842bcfd13d83c078f"
+  },
+  "posting": "happy"
+},{
+  "_id": {
+    "$oid": "6025606242bcfd13d83c0790"
+  },
+  "posting": "happy"
+},{
+  "_id": {
+    "$oid": "6025608d42bcfd13d83c0791"
+  },
+  "posting": "happy"
+},{
+  "_id": {
+    "$oid": "602560b142bcfd13d83c0792"
+  },
+  "posting": "neutral"
+},{
+  "_id": {
+    "$oid": "602560d442bcfd13d83c0793"
+  },
+  "posting": "sad"
+},{
+  "_id": {
+    "$oid": "602560fd42bcfd13d83c0794"
+  },
+  "posting": "happy"
+},{
+  "_id": {
+    "$oid": "6025612042bcfd13d83c0795"
+  },
+  "posting": "fear"
+},{
+  "_id": {
+    "$oid": "6025616342bcfd13d83c0796"
+  },
+  "posting": "happy"
+},{
+  "_id": {
+    "$oid": "6025619c42bcfd13d83c0797"
+  },
+  "posting": "angry"
+},{
+  "_id": {
+    "$oid": "602561f342bcfd13d83c0798"
+  },
+  "posting": "neutral"
+},{
+  "_id": {
+    "$oid": "6025627642bcfd13d83c0799"
+  },
+  "posting": "disgust"
+},{
+  "_id": {
+    "$oid": "602562d742bcfd13d83c079a"
+  },
+  "posting": ""
+}]

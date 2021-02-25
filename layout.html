@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.4.8/socket.io.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.2.2/Chart.min.js"></script>
+
+    <title>Document</title>
+
+    
+</head>
+<body>
+    <div>
+        <div class="flex-container" style="width: 1800px;">
+           <div>
+               <form action="/chartdata" method="GET">
+                <canvas name="myChart" id="myChart"></canvas>
+               </form>
+           </div>
+           <div>
+             <canvas id="myChartsatu"></canvas>
+           </div>
+           <div>
+             <canvas id="myChartdua"></canvas>
+           </div>
+         </div>
+         <div class="flex-container" style="width: 1800px;">
+             <div>
+               <canvas  id="myCharttiga"></canvas>
+             </div>
+             <div>
+               <canvas id="myChartempat"></canvas>
+             </div>
+             <div>
+               <canvas id="myChartlima"></canvas>
+             </div>
+         </div>
+         <div class="flex-container" style="width: 1800px;">
+             <div style="margin-left: 500px">
+               <canvas  id="myChartenam"></canvas>
+             </div>
+         </div>
+       </div>
+    
+</body>
+<script>
+
+var socket = io();
+var data;
+var chart;
+var ctx;
+
+socket.on('vote', function (response) {
+
+var i = 0;
+
+ for (var key in response) {
+   data.labels[i] = response[i]._id;
+   data.datasets[0].data[i] = response[i].total_vote;
+   i++;
+}
+
+ // Update chart
+chart.update(); 
+});
+
+// Chart Data
+data = {
+labels: [],
+datasets: [
+     {
+         label: [],
+         data: [],
+     }
+ ]
+};
+ctx = document.getElementById('myChart').getContext('2d');
+chart = new Chartt(context,{
+   type: 'bar',
+   data: data,
+   animation:{ 
+      animateScale:true
+   }
+});
+
+    // var ctx = document.getElementById('myChart').getContext('2d');
+    // var chart = new Chart(ctx, {
+    // // The type of chart we want to create
+    // type: 'line',
+
+    // // The data for our dataset
+    // data: {
+    //     labels: ['30','60','90','120','150','180','210','240',
+    //     '270','300'],
+    //     datasets: [{
+    //         label: 'Diagram Angry',
+    //         borderColor: 'rgb(255, 99, 132)',
+    //         data: [30, 23, 16, 9, 2, 24, 18, 12, 6, 0]
+    //     }]
+    // },
+    // options: {}
+    // }); 
+</script>
+</html>

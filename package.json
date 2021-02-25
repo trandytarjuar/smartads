@@ -1,0 +1,27 @@
+{
+  "name": "projectupdate",
+  "version": "1.0.0",
+  "description": "project progress",
+  "main": "app.js",
+  "scripts": {
+    "start": "index.html",
+    "test": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/aji2207ok/projectfinalpost.git"
+  },
+  "author": "pradana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/aji2207ok/projectfinalpost/issues"
+  },
+  "homepage": "https://gitlab.com/aji2207ok/projectfinalpost#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.4",
+    "mongoose": "^5.11.15",
+    "socket.io": "^3.1.1"
+  }
+}
